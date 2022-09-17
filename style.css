@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+
+
+html, body{
+    scroll-behavior:smooth;
+}
+
+.bouton{
+    text-align: center;
+    font-size: 30px;
+
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border:solid 5px rgb(160, 160, 160);
+}
+
+/*--- Propriété communes (pour pas avoir 600 lignes de CSS)---*/
+p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Gruppo', serif;
+    font-size: 45px;
+    color: orangered;
+}
+
+a{
+    color: orange;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(238, 189, 98);
+    transition: font-size 1s;
+    font-size: 110%;
+}
+
+a:visited{
+    color: orangered;
+}
+
+/*------- Header -------*/
+.header{
+    height: 20%;
+    background-color: rgb(232, 230, 230);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:50px;
+}
+
+.header img{
+    margin-right: auto;
+    margin-top: 0;
+    height: 100px;
+}
+
+.header p{
+    font-size: 25px;
+    color: orange;
+}
+
+.header h1{
+    font-family: 'Gruppo', serif;
+    font-size: 70px;
+    color: orange;
+    font-style: italic;
+}
+
+.header a{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.header a:hover{
+    font-size: 35px;
+}
+
+
+/*------- Main -------*/
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main img{
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+    transition: width 2s, transform 3s;
+}
+
+.main img:hover{
+    width: 50%;
+    transform: rotate(20deg);
+}
+
+
+.maintxt{
+    background-color: rgb(230, 230, 230);
+    padding:30px;
+}
+
+.maintxt h2{
+    padding-top: 10px;
+}
+
+/*------- fonctionnalités -------*/
+.fonctionnalites{
+    width : 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3%;
+    margin-top: 3%
+}
+
+.fonctionnalites h3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Gruppo', serif;
+    font-size: 30px;
+    color: rgb(184, 49, 0);
+}
+
+.FlexRow{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 100px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.fonctionnalites img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------- Avis -------*/
+.avis{
+    width : 100%;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 5%;
+    padding-bottom: 15px;
+}
+
+.avis h3{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gruppo', serif;
+    font-size: 35px;
+    color: rgb(184, 49, 0);
+}
+
+.avis h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.avis ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap:20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+/*------- Footer -------*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+
+.footer p{
+    font-size: 15px;
+}

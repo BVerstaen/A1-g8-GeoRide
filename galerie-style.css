@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+.bouton{
+    text-align: center;
+    font-size: 30px;
+
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:100px;
+    border:solid 5px rgb(160, 160, 160);
+}
+
+/*Propriété communes (pour pas avoir 600 lignes de CSS)*/
+p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Gruppo', serif;
+    font-size: 40px;
+    color: orangered;
+}
+
+a{
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(238, 189, 98);
+    transition: font-size 1s;
+    font-size: 110%;
+}
+
+a:visited{
+    color: orangered;
+}
+
+/*------- Header -------*/
+.header{
+    height: 20%;
+    background-color: rgb(232, 230, 230);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:40px;
+}
+
+.header img{
+    margin-right: auto;
+    margin-top: 0;
+    height: 100px;
+}
+
+.header p{
+    font-size: 25px;
+    color: orange;
+}
+
+.header h1{
+    font-family: 'Gruppo', serif;
+    font-size: 70px;
+    color: orange;
+    font-style: italic;
+}
+
+.header a{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.header a:hover{
+    font-size: 35px;
+}
+
+/*------- Presentation -------*/
+.Presentation{
+    width : 100%;
+    background-color: rgb(230, 230, 230);
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.Presentation img{
+    width:20%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 2s, transform 2s;
+}
+
+.Presentation img:hover{
+    width:21%;
+    transform: rotate(30deg);
+}
+
+/*------- Galerie -------*/
+.colunm{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.colunm img{
+    width:30%;
+    border: solid 5px white;
+}
+
+.image2{
+    margin-top: 20px;
+    width:100%;
+    margin-bottom: 20px;
+    border: solid 5px white;
+}
+
+
+/*------- Footer -------*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+
+.footer p{
+    font-size: 15px;
+}
