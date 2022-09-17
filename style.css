@@ -74,7 +74,6 @@ a:visited{
 
 .header img{
     margin-right: auto;
-    margin-top: 0;
     height: 100px;
 }
 
@@ -101,6 +100,11 @@ a:visited{
     font-size: 35px;
 }
 
+.IconeImage{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
 
 /*------- Main -------*/
 .main{
@@ -208,3 +212,49 @@ a:visited{
 .footer p{
     font-size: 15px;
 }
+
+/*------- Partie pour Galerie .html -------*/
+
+/*------- Presentation -------*/
+.Presentation{
+    width : 100%;
+    background-color: rgb(230, 230, 230);
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.Presentation img{
+    width:20%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 2s, transform 2s;
+}
+
+.Presentation img:hover{
+    width:21%;
+    transform: rotate(30deg);
+}
+
+/*------- Galerie -------*/
+.colunm{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.colunm img{
+    width:30%;
+    border: solid 5px white;
+}
+
+.image2{
+    margin-top: 20px;
+    width:100%;
+    margin-bottom: 20px;
+    border: solid 5px white;
+}
+
