@@ -99,12 +99,6 @@ a:visited{
     font-size: 35px;
 }
 
-.IconeImage{
-    display: flex;
-    gap:20px;
-    align-items: center;
-}
-
 /*------- Presentation -------*/
 .Presentation{
     width : 100%;
